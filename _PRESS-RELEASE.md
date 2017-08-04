@@ -19,26 +19,53 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
+  Bag Advisor
+
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+
+  For anyone who has ever agonized over what to pack for an upcoming trip!
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
+  Going on a trip somewhere you've never been before?! Awesome!  Traveling to new exciting places can be a rewarding experience.  One thing that is not always clear or easy to do is plan what to pack!  So many factors to consider! 
+    How long you are staying?
+    What the weather will or could be like?
+    How active will you be? (hiking?, swimming?, Skiing?)
+    Do you need options to dress formally? (interview, nice dinner, etc.)
+    ...
+  Enter Bag Advisor! 
+    Tell us where you plan to go, how long you expect to stay and we take care of the rest!  
+  Our intelligent packing engine will give you an easy to use, customizable list that you can simply check off as you apck your bag,
+  leaving you to focus on enjoying your trip!! 
+
 ## Problem ##
   > Describe the problem your product solves.
+
+  Packing can be hard, esspecially when you don't know much about where you are traveling to!  Sure you may know the sites, or where you will be staying.  But what about the weather?  Things you might forget to bring and find youself scrambling to buy in a foreign place! 
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
+  Convienient and quick advice on what to pack, to help alleviate pre-trip anxiety of packing anything you might need for a trip to an unfamiliar place!
+
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+
+  "Our aim is to make packing a quick and painless experience,  your trip is what matters, there is enough to consider outside of what's in your bag. Bag Advisor lets you focus on the trip!  Bon Voyage!!"
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
 
+  From any computer or smartphone/tablet  simply go to BagAdvisor.com and let us know where you're going and for how long!  no signups, no passwords to remember jsut a few quick clicks/taps and you have and you're ready to pack!!
+
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
+  "Bag advisor made my recent trip to London a breeze! packing took me significantly less time, and I was prepared for the cooler temperatures and rain!"
+
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+
+  Ready to take a trip?  go to BagAdvisor.com now, get your list and start packing!! 
