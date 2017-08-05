@@ -33,6 +33,8 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   // initiate DB call for destination doc
+  console.log('we got a request!! engage respnse engines!!! ', req);
+  res.send(201);
 })
 
 
