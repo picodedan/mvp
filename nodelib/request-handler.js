@@ -1,18 +1,21 @@
 var express = require('express');
 var Promise = require('bluebird');
-var db = (mogoose);//mongoose
+//var db = (mogoose);//mongoose
 //space for additional reqs
 
 var app = express();
+app.use(express.static('public'));
+app.use(express.static('lib'))
+
 
 //basic routes
 
-app.get('/', (res,req) => {
-  //server up base page and public resources
+app.get('/', (req, res) => {
+  res.send('index.html');
 })
 
 
-app.post('/', (res,req) => {
+app.post('/', (req, res) => {
   // initiate DB call for destination doc
 })
 
