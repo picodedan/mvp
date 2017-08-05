@@ -1,10 +1,11 @@
 //client side app experience 
 import React from 'react';
 import ReactDOM from 'react-dom';
-/*
-ReactDOM.render(
-  </App > </App>, 
-  document.getElementById('app')
-);
-*/
+import Counter from './Counter';
 
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    React.createElement(Counter),
+    document.getElementById('mount')
+  );
+});
