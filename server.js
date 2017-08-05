@@ -1,7 +1,7 @@
 var app = require('./nodelib/request-handler');
 
-var port = 3458;
-
-app.listen(port, () => {
-  console.log('now serving on port', port);
+const server = app.listen(3458, () => {
+  var host = server.address().address;
+  var port = server.address().port;
+  console.log('now serving from ',host, port);
 });
