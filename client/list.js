@@ -7,3 +7,22 @@ import React from 'react';
 
 //if all items are 'struckthrough' show and alert or additional colorful element that indicates/celebrates completion. 
 
+class List extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      list: this.props.list
+    }
+
+  };
+
+
+  render() {
+    <ul>
+      {this.state.list.map(item => { <li>{item} </li> })}
+    </ul>
+
+  }
+}
+
+export default List;

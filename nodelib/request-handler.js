@@ -25,6 +25,8 @@ app.use(webpackDevMiddleware(compiler, {
 
 
 //basic routes
+//need to setup a url parser to make life easier.  
+
 
 app.get('/', (req, res) => {
   res.send('index.html');
