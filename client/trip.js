@@ -21,7 +21,7 @@ class Trip extends React.Component {
     }
   };
 
-  handleSubmit (e) {
+  submitDestination (e) {
     e.preventDefault();
     //posts the destionation and days to the server
 

@@ -15,11 +15,15 @@ class List extends React.Component {
     }
 
   };
-
+//getting error with rendering on this,  somehow not returning properly, the values appear to be passing in properly,  work out htis kink and expand to react component listItem for easier handling of returned objects.  
 
   render() {
     <ul>
-      {this.state.list.map(item => { <li>{item} </li> })}
+      {this.state.list.map(item => {
+        debugger;
+          return <li> {item} </li> 
+          }
+        )}
     </ul>
 
   }
