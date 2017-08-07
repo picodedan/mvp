@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './list';
+import axios from 'axios';
 
 //user input fields and state manager for list
 // will render list when data from DB is recieved 
@@ -24,12 +25,29 @@ class Trip extends React.Component {
   submitDestination (e) {
     e.preventDefault();
     //posts the destionation and days to the server
-
+    axios.post('/', {
+      destination: this.state.destination
+    }).then((res) => {
+      //send response data to packingTime function.
+      this.packingTime(res.data[0]);
+    }).catch((error) => {
+      console.log(error);
+    })
   };
 
-  packingTime (result) {
+  packingTime (res) {
     //handles inbound list and renders trip list to the id list
-    this.setState({trip: result});
+    console.log(res);
+    this.state.trip = res.toPack;
+    this.setState({trip: this.state.trip});
+  }
+
+  packedIt (e) {
+    //take clicke event from list item and remove from page
+  }
+
+  allDone () {
+    //if all items have been packed,  show a congratulations message
   }
 
   render() {
@@ -57,10 +75,10 @@ class Trip extends React.Component {
           <input 
             type="submit" 
             value="Start Packing!!" 
-            onClick={e => this.handleSubmit(e)} 
+            onClick={e => this.submitDestination(e)} 
           />
         </form>
-        <List list={this.state.trip} />
+        <List list={this.state.trip} days={this.state.days} />
       </div>
       
     )

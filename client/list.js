@@ -6,33 +6,17 @@ import React from 'react';
 //each list item when clicked will toggle 'strikethrough' 
 
 //if all items are 'struckthrough' show and alert or additional colorful element that indicates/celebrates completion. 
-var listItem = (item) => {
-    return ( 
-      <li key={item.toString()}> 
-        {item} 
-      </li>
-    );
-};
+var ListItem = (props) => (
+  <li key={props.article}> 
+    {props.days + 'x ' + props.article} 
+  </li>
+);
 
-class List extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      list: this.props.list
-    }
+var List = (props) => (
+  <ul>
+  {props.list.map(item => <ListItem article={item} days={props.days} />)}
+  </ul>
+);
 
-  };
-
-
-//getting error with rendering on this,  somehow not returning properly, the values appear to be passing in properly,  work out htis kink and expand to react component listItem for easier handling of returned objects.  
-
-  render(){
-    return (
-      <ul>
-        {this.state.list.map(item => listItem(item))}
-      </ul>
-    );
-  };
-}
 
 export default List;
