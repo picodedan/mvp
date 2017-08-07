@@ -8,7 +8,7 @@ class Trip extends React.Component {
   constructor() {
     super();
     this.state = {
-      trip: ['test1','test2','test3', 'test4' ], //assuming array for now, as in array of list objects to populate the sub-component List
+      trip: [], //assuming array for now, as in array of list objects to populate the sub-component List
       destination: '',
       days: 0
     };
